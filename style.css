@@ -62,9 +62,17 @@ button {
 .quote {
     background-color: #E5E7EB;
     color: 1f2937;
-    font-style: italic;
-    font-weight: 100;
     font-size: 36px;
+}
+
+.text1 {
+    font-style: italic;
+    font-weight: 100px;
+}
+
+.text2 {
+    font-weight: bold;   
+    
 }
 
 body {
@@ -87,16 +95,16 @@ padding-left: 285px;
     align-items: center;
 }
 
-.header-link-list {
-    display: flex;
-    justify-content: space-evenly;
+.headerlink1, .headerlink2 {
+    padding-right: 18px;
+}
 
 /* hicbir sey calismiyor, 
 bi de sayfanin sagi ve solu cok genis gorunuyor niye?
 ucuncusu bos img zimbirtisinin backgroundu ve texti 
 nasil ayarlanir*/
 
-}
+
 .hero {
     display: flex;
     justify-content: center;
@@ -114,6 +122,7 @@ nasil ayarlanir*/
 .container-information {
     display: flex;
     justify-content: center;
+    margin-bottom: 60px;
 
 }
 
@@ -121,4 +130,42 @@ nasil ayarlanir*/
     display: flex;
     width: 120px;
     flex-wrap: wrap;
+    padding-top: 10px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+}
+
+.information-title {
+    margin: 30px 0px;
+}
+
+img {
+    border: 1px solid #3882f6;
+    border-radius: 5px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   max-width: 650px;
+   margin: 60px 0px;
+   
+}
+
+.quote-container {
+    background-color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text2 {
+    padding-left: 200px;
+    padding-top: 20px;
+    
 }
